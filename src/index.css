@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media print {
+    #print{
+        display: none;
+    }
+    #logo{
+      display: none;
+    }
+}
+
+/* styles.css or your global stylesheet */
+
+/* WebKit (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #6b7280; /* Change the color to your preference */
+    border-radius: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #d1d5db; /* Change the color to your preference */
+  }
+
+  td {
+    font-size: 0.9em;
+  }
+  
+  /* Firefox */
+  /* scrollbar-color: #6b7280 #d1d5db; */
+  
